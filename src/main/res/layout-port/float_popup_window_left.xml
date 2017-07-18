@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android" android:layout_gravity="top|bottom|center_vertical|fill_vertical|center|fill" android:layout_width="wrap_content" android:layout_height="wrap_content">
+    <LinearLayout android:gravity="top|bottom|left|right|center_vertical|fill_vertical|center_horizontal|fill_horizontal|center|fill|start|end" android:orientation="horizontal" android:id="@id/ll_menu" android:background="@drawable/float_popup_background_left" android:layout_width="wrap_content" android:layout_height="UNKNOWN_DATA_0x2e01" android:layout_marginLeft="2dp"
+        <LinearLayout android:gravity="top|bottom|left|right|center_vertical|fill_vertical|center_horizontal|fill_horizontal|center|fill|start|end" android:orientation="vertical" android:id="@id/ll_user_feedback" android:layout_width="UNKNOWN_DATA_0x3201" android:layout_height="match_parent" android:layout_marginLeft="50dp">
+            <ImageView android:id="@id/iv_user_feedback" android:layout_width="wrap_content" android:layout_height="UNKNOWN_DATA_0x1201" android:src="@drawable/usercenter" />
+            <TextView android:textSize="10sp" android:textColor="@color/color_text_selected" android:id="@id/tv_user_feedback" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/user_feedback" />
+        </LinearLayout>
+        <LinearLayout android:gravity="top|bottom|left|right|center_vertical|fill_vertical|center_horizontal|fill_horizontal|center|fill|start|end" android:orientation="vertical" android:id="@id/ll_game_forum" android:layout_width="UNKNOWN_DATA_0x3201" android:layout_height="match_parent" android:layout_marginRight="20dp">
+            <ImageView android:id="@id/iv_game_forum" android:layout_width="wrap_content" android:layout_height="UNKNOWN_DATA_0x1201" android:src="@drawable/forum" />
+            <TextView android:textSize="10sp" android:textColor="@color/color_text_selected" android:id="@id/tv_game_forum" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/game_forum" />
+        </LinearLayout>
+    </LinearLayout>
+</FrameLayout>

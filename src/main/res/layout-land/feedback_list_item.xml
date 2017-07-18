@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" android:orientation="vertical" android:layout_width="match_parent" android:layout_height="match_parent"
+    <LinearLayout android:layout_width="match_parent" android:layout_height="wrap_content">
+        <TextView android:id="@id/feedback_category" android:background="@color/color_text_feedlist_category" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_weight="1.0" />
+        <TextView android:id="@id/feedback_time" android:background="@color/color_text_feedlist_time" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_weight="1.0" />
+        <TextView android:id="@id/feedback_solve" android:background="@color/color_text_feedlist_reply" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="@string/has_solved" android:layout_weight="1.0" />
+    </LinearLayout>
+    <TextView android:id="@id/feedback_question" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/feedback_question" />
+    <TextView android:id="@id/tv_feedback_question" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+    <ImageView android:layout_width="match_parent" android:layout_height="wrap_content" android:src="@drawable/grayline" />
+    <TextView android:id="@id/feedback_reply" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/feedback_reply" />
+    <TextView android:id="@id/tv_feedback_reply" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+</LinearLayout>

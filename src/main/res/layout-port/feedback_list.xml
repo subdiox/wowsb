@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" android:orientation="vertical" android:layout_width="match_parent" android:layout_height="match_parent">
+    <RelativeLayout android:orientation="horizontal" android:id="@id/header" android:background="@drawable/rk_title" android:layout_width="match_parent" android:layout_height="UNKNOWN_DATA_0x3201" android:layout_alignParentTop="true">
+        <Button android:textSize="@dimen/font_size_title" android:textColor="0x106000b" android:id="@id/btn_feedback_list_back" android:background="@drawable/back_selector" android:layout_width="UNKNOWN_DATA_0x7f060002" android:layout_height="UNKNOWN_DATA_0x7f060003" android:layout_marginLeft="5dp" android:text="@string/back" android:layout_centerVertical="true" />
+        <TextView android:textSize="@dimen/font_size_title" android:textColor="0x106000b" android:id="@id/tv_feedback_list_title" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/user_feedback" android:layout_centerInParent="true" />
+    </RelativeLayout>
+    <ListView android:id="@id/lv_feedback_list" android:layout_width="match_parent" android:layout_height="match_parent" />
+</LinearLayout>

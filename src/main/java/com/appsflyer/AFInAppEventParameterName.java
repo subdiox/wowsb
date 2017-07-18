@@ -1,0 +1,42 @@
+package com.appsflyer;
+
+public interface AFInAppEventParameterName {
+    public static final String CLASS = "af_class";
+    public static final String CONTENT_ID = "af_content_id";
+    public static final String CONTENT_LIST = "af_content_list";
+    public static final String CONTENT_TYPE = "af_content_type";
+    public static final String CURRENCY = "af_currency";
+    public static final String CUSTOMER_USER_ID = "af_customer_user_id";
+    public static final String DATE_A = "af_date_a";
+    public static final String DATE_B = "af_date_b";
+    public static final String DESCRIPTION = "af_description";
+    public static final String DESTINATION_A = "af_destination_a";
+    public static final String DESTINATION_B = "af_destination_b";
+    public static final String EVENT_END = "af_event_end";
+    public static final String EVENT_START = "af_event_start";
+    public static final String LATITUDE = "af_lat";
+    public static final String LEVEL = "af_level";
+    public static final String LONGTITUDE = "af_long";
+    public static final String MAX_RATING_VALUE = "af_max_rating_value";
+    public static final String PARAM_1 = "af_param_1";
+    public static final String PARAM_10 = "af_param_10";
+    public static final String PARAM_2 = "af_param_2";
+    public static final String PARAM_3 = "af_param_3";
+    public static final String PARAM_4 = "af_param_4";
+    public static final String PARAM_5 = "af_param_5";
+    public static final String PARAM_6 = "af_param_6";
+    public static final String PARAM_7 = "af_param_7";
+    public static final String PARAM_8 = "af_param_8";
+    public static final String PARAM_9 = "af_param_9";
+    public static final String PAYMENT_INFO_AVAILIBLE = "af_payment_info_available";
+    public static final String PRICE = "af_price";
+    public static final String QUANTITY = "af_quantity";
+    public static final String RATING_VALUE = "af_rating_value";
+    public static final String RECEIPT_ID = "af_receipt_id";
+    public static final String REGSITRATION_METHOD = "af_registration_method";
+    public static final String REVENUE = "af_revenue";
+    public static final String SCORE = "af_score";
+    public static final String SEARCH_STRING = "af_search_string";
+    public static final String SUCCESS = "af_success";
+    public static final String VALIDATED = "af_validated";
+}
